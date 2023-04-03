@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Revalia&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/index.js"></script>
+    <title>WD</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex-header">
+        <h1 class="logo"><a class="logo-link link">WD</a></h1>
+        <nav class="nav">
+          <button class="burger" id="burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </button>
+          <ul id="nav-list" class="nav-list">
+            <li class="nav-list-item">
+              <a href="#" class="nav-link link">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link link">ОБ АВТОРЕ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link link">РАБОТЫ</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link link">ПРОЦЕСС</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="greeting-screen">
+        <div class="container greeting-grid">
+          <div class="greeting-img-wrapper">
+            <img
+              src="assets/img/notebook.svg"
+              alt="Laptop with code"
+              class="greeting-img"
+            />
+          </div>
+          <article class="greeting-article">
+            <h2 class="big-heading">Дизайн и верстка</h2>
+            <p class="text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века.
+            </p>
+            <button class="btn">НАПИСАТЬ МНЕ</button>
+          </article>
+        </div>
+      </section>
+      <section class="about-me">
+        <div class="container">
+          <article class="about-me-article centered-text">
+            <h2 class="small-heading">Обо мне</h2>
+            <p class="text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="form">
+        <div class="container flex direction-column">
+          <div
+            class="container flex items-center direction-column container-form-text"
+          >
+            <h2 class="small-heading">Хотите веб-сайт?</h2>
+            <p class="text centered-text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице c начала XVI века.
+            </p>
+          </div>
+          <form
+            class="container flex items-center direction-column container-control"
+          >
+            <div class="flex">
+              <label>
+                <input
+                  type="text"
+                  class="control name-input"
+                  placeholder="Ваше имя"
+                  required
+                  name="name"
+                  pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ']{1,20}"
+                  autocomplete="given-name"
+                />
+                <input
+                  type="email"
+                  class="control email"
+                  placeholder="Ваш e-mail"
+                  required
+                  name="email"
+                  autocomplete="email"
+                  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                />
+              </label>
+            </div>
+            <div class="flex">
+              <label>
+                <textarea
+                  class="control control-big textarea"
+                  name="message"
+                  rows="10"
+                  placeholder="Сообщение"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex">
+              <button type="submit" class="btn btn-form">ОТПРАВИТЬ</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container flex flex-footer">
+        <div class="container flex container-vk-logo">
+          <a href="#"
+            ><img
+              class="vk-logo"
+              src="./assets/img/vk-social-network-logo.png"
+              alt="vk-logo"
+          /></a>
+          <a href="#"
+            ><img
+              class="vk-logo"
+              src="./assets/img/vk-social-network-logo.png"
+              alt="vk-logo"
+          /></a>
+          <a href="#"
+            ><img
+              class="vk-logo"
+              src="./assets/img/vk-social-network-logo.png"
+              alt="vk-logo"
+          /></a>
+        </div>
+        <div class="container flex container-info-text">
+          <h2 class="smaller-heading">Иванов Иван</h2>
+          <p class="privacy-text-footer">(c) 2018. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

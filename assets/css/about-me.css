@@ -1,0 +1,14 @@
+.about-me {
+  padding: 110px 10px;
+  background-color: var(--accent-text-color);
+}
+
+.about-me-article {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-article {
+    width: 50%;
+  }
+}

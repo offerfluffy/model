@@ -1,0 +1,42 @@
+.greeting-screen {
+  padding: 80px 10px;
+  background: var(--bg-color);
+}
+
+.greeting-grid {
+  display: grid;
+  gap: 40px 0;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.greeting-img-wrapper {
+  grid-column: 1 / span 12;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.greeting-img {
+  display: block;
+  width: 100%;
+}
+
+.greeting-article {
+  grid-column: 1 / span 12;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .greeting-grid {
+    gap: 0 40px;
+  }
+
+  .greeting-img-wrapper {
+    grid-column: 1 / 7;
+    align-self: center;
+  }
+
+  .greeting-article {
+    grid-column: 7 / -1;
+    text-align: left;
+  }
+}

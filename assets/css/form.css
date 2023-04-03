@@ -1,0 +1,46 @@
+.form{
+  background: var(--bg-color);
+  padding: 80px 10px;
+}
+
+.container-control{
+  margin-top: 2rem;
+}
+
+.control{
+  width: 100%;
+  padding: 15px;
+  border: none;
+}
+
+.control-big{
+  margin-top: 1rem;
+  min-width: 400px;
+}
+
+.name-input{
+  margin-bottom: 1rem ;
+}
+
+.btn-form{
+  padding: 20px 41px;
+}
+
+
+@media screen and (min-width: 576px){
+  .container-form-text{
+    width: 50%;
+  }
+
+  .control{
+    width: 235px;
+  }
+
+  .name-input{
+    margin-right: 30px;
+  }
+
+  .control-big{
+    width: 500px;
+  }
+}

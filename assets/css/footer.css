@@ -1,0 +1,62 @@
+.footer{
+  background: var(--accent-color);
+  padding: 45px 10px;
+  width: 100%;
+}
+
+.flex-footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.container-info-text{
+  flex-direction: row;
+}
+
+.smaller-heading{
+  font-size: 1.5rem;
+  color: var(--accent-text-color);
+  line-height: 1.1;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.privacy-text-footer{
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: var(--accent-text-color);
+}
+
+.container-vk-logo{
+  width: 40%;
+  justify-content: space-between;
+}
+
+.vk-logo{
+  width: 40px;
+}
+
+@media screen and (min-width:765px){
+  .flex-footer{
+    flex-direction: row-reverse;
+  }
+
+  .container-vk-logo{
+    width: 20%;
+  }
+
+  .container-info-text{
+    flex-direction: column;
+  }
+
+  .privacy-text-footer{
+    margin-top: 1rem;
+  }
+
+  .smaller-heading{
+    margin-top: 0.8rem;
+  }
+}
