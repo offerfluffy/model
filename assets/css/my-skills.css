@@ -24,6 +24,7 @@
   .container-my-skills-info{
     position: absolute;
     top: 1250px;
+    text-align: center;
   }
   
   .my-skills-img{
@@ -36,6 +37,6 @@
 
   .progress-line{
     position: relative;
-    right: 80px;
+    right: 70px;
   }
 }
