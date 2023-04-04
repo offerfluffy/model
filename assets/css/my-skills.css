@@ -20,15 +20,15 @@
   width: 100%;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 1024px) {
   .container-my-skills-info{
     position: absolute;
-    top: 1250px;
+    top: 1100px;
     text-align: center;
   }
-  
+
   .my-skills-img{
-    margin-top: 250px;
+    margin-top: 300px;
   }
 
   .container-my-skills{
@@ -40,3 +40,26 @@
     right: 70px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container-my-skills-info{
+    position: absolute;
+    top: 1250px;
+    text-align: center;
+  }
+  
+  .my-skills-img{
+    margin-top: 220px;
+  }
+
+  .container-my-skills{
+    justify-content: center;
+  }
+
+  .progress-line{
+    position: relative;
+    right: 70px;
+  }
+}
+
+
