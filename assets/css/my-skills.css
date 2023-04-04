@@ -1,0 +1,41 @@
+.my-skills{
+  padding: 80px 10px;
+}
+
+.container-my-skills-info{
+  margin-top:6rem ;
+}
+
+.progress-line{
+  height: 3px;
+  width: 190%;
+
+  background: linear-gradient(to right, var(--accent-color) 80%, rgb(197, 197, 197) 20%);
+
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-skills-img{
+  width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .container-my-skills-info{
+    position: absolute;
+    top: 1250px;
+  }
+  
+  .my-skills-img{
+    margin-top: 250px;
+  }
+
+  .container-my-skills{
+    justify-content: center;
+  }
+
+  .progress-line{
+    position: relative;
+    right: 80px;
+  }
+}

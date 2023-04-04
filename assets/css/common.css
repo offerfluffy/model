@@ -27,6 +27,10 @@
   flex-direction: column;
 }
 
+.direction-row{
+  flex-direction: row;
+}
+
 .big-heading,
 .small-heading {
   font-weight: 500;
